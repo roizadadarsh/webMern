@@ -13,7 +13,7 @@ const errorMiddleWare = require("./Middlewares/error-middleware");
 
 // lets tackle cors policy
 const corsOption ={
- origin: "http://127.0.0.1:5173",
+ origin: "https://webmernstackapp-e6y4.vercel.app",
  methods: "GET,POST,PUT,PATCH,DELETE,HEAD",
  credentials: true,
 };
